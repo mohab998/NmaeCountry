@@ -15,7 +15,7 @@ async function getData() {
     console.log(data.gender);
 
     if(data.gender=='male'){
-        document.write('<img src="male.jpg" alt="Male"/>').style.height='200px';
+        document.write('<img src="male.jpg" alt="Male"/>').style.height='20px';
     }else{
         document.write('<img src="female.jpg" alt="Female"/>');
     }
