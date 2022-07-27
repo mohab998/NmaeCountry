@@ -9,16 +9,27 @@
     <title>Name</title>
 </head>
 <body>
-    <input  id="name" >
+
+    <input  id="name" onkeypress="return event.charCode != 32">
 
     <div class="container"></div>
 
 
+    <script src="name.js"></script>
 
-<script src="name.js"></script>
 <button onclick="getData()"> Get Data </button>
-<button onclick="renderUsers()"> Get Data44 </button>
+<div class="container">
 
+<img id="male" src="male.jpg" title="GenderMale">
+<div id="MaleText" class="topleft">Male</div>
+<div id="test"></div>
+
+</div>
+<div class="container">
+
+<img id="female" src="female.jpg" title="GenderFemale">
+<div id="FemaleText" class="topleft">Female</div>
+</div>
 
 </body>
 
