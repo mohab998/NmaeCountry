@@ -8,9 +8,12 @@
 
     <title>Name</title>
 </head>
-<body>
+<body onload="get()">
 
     <input  id="name" onkeypress="return event.charCode != 32">
+   
+
+    <label  id="age"></label>
 
     <div class="container"></div>
 
@@ -23,6 +26,9 @@
 <img id="male" src="male.jpg" title="GenderMale">
 <div id="MaleText" class="topleft">Male</div>
 <div id="test"></div>
+<p id="savedText"></p>
+<p id="openedText"></p>
+
 
 </div>
 <div class="container">
@@ -30,7 +36,9 @@
 <img id="female" src="female.jpg" title="GenderFemale">
 <div id="FemaleText" class="topleft">Female</div>
 </div>
+<div class="flagsCont contsWidth">
 
+</div>
 </body>
 
 
